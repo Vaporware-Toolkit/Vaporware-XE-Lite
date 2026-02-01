@@ -42,7 +42,6 @@ Or download it and run locally:
 ## Requirements
 
 - Windows with PowerShell 5.1 or newer
-- That's it
 
 ## What's Inside
 
@@ -101,7 +100,7 @@ Plus a bunch more stuff organized by category.
 5. It opens in your browser
 6. Type `B` to go back
 
-Press `H` in the main menu for help, `S` for system info, `Q` to quit.
+Type `H` in the main menu for help, `S` for system info, `Q` to quit.
 
 ## Should I trust this?
 
