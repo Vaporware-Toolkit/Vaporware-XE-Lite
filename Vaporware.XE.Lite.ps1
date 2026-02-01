@@ -490,8 +490,18 @@ function Show-SystemInfo {
     Write-Host "  No system changes are made. Everything is read-only." -ForegroundColor White
     
     Write-Host ""
-    Write-Host "  Press any key to continue..."
-    $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
+    Write-Host "    [B] Back to Main Menu" -ForegroundColor White
+    Write-Host ""
+    
+    while ($true) {
+        $choice = Read-Host "  Select option"
+        if ($choice -eq 'B' -or $choice -eq 'b') {
+            break
+        }
+        else {
+            Write-Host "  Invalid option - Type 'B' to go back" -ForegroundColor Red
+        }
+    }
 }
 
 function Show-Help {
@@ -542,8 +552,18 @@ function Show-Help {
     Write-Host "  browser extensions, messaging apps, uninstallers, debloaters," -ForegroundColor Gray
     Write-Host "  password managers, email privacy, encryption tools, and more." -ForegroundColor Gray
     Write-Host ""
-    Write-Host "  Press any key to continue..."
-    $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
+    Write-Host "    [B] Back to Main Menu" -ForegroundColor White
+    Write-Host ""
+    
+    while ($true) {
+        $choice = Read-Host "  Select option"
+        if ($choice -eq 'B' -or $choice -eq 'b') {
+            break
+        }
+        else {
+            Write-Host "  Invalid option - Type 'B' to go back" -ForegroundColor Red
+        }
+    }
 }
 
 function Start-SubCategoryBrowser {
