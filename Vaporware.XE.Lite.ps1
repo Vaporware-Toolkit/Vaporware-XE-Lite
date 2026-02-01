@@ -307,8 +307,8 @@ function Show-MainMenu {
     Write-Host "            ██╔╝ ██╗███████╗    ███████╗██║   ██║   ███████╗                  " -ForegroundColor DarkRed
     Write-Host "            ╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝   ╚═╝   ╚══════╝                  " -ForegroundColor DarkRed
     Write-Host ""
-    Write-Host "                 Security Resource Directory - v3.0                            " -ForegroundColor Gray
-    Write-Host "                 Owned by Bloodware (https://linkr.it/blood)                   " -ForegroundColor DarkGray
+    Write-Host "                Security & Privacy Resource Directory - v3.0                            " -ForegroundColor Gray
+    Write-Host "                Owned by Bloodware (https://linkr.it/blood)                   " -ForegroundColor DarkGray
     Write-Host ""
     Write-Host "  ? We are searching deeply for more privacy and security focused sites..." -ForegroundColor DarkCyan
     Write-Host ""
@@ -720,4 +720,5 @@ OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
 
 ????????????????????????????????????????????????????????????????????????????????
 #>
+
 
