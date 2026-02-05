@@ -118,6 +118,8 @@ $script:Resources = @{
             "Qwant Search (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/qwant-the-search-engine/"
             "Startpage Private Search (Chrome)" = "https://chromewebstore.google.com/detail/startpage-private-search/fgmjlmbojbkmdpofahffgcpkhkngfpef"
             "Startpage Private Search (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/startpage-private-search/"
+            "LocalCDN" = "https://www.localcdn.org/"
+            "Decentraleyes" = "https://decentraleyes.org/"
             "JShelter" = "https://jshelter.org/"
             "Cookie-AutoDelete" = "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete"
             "CanvasBlocker (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/"
@@ -730,6 +732,7 @@ OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
 
 ????????????????????????????????????????????????????????????????????????????????
 #>
+
 
 
 
