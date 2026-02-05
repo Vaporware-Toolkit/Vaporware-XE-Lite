@@ -122,7 +122,8 @@ $script:Resources = @{
             "Cookie-AutoDelete" = "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete"
             "CanvasBlocker (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/"
             "Canvas Blocker (Chrome)" = "https://chromewebstore.google.com/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd"
-            "Trace (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/absolutedouble-trace/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search"
+            "Trace (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/absolutedouble-trace/?utm_source=addons.mozilla.org"
+            "uMatrix (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/umatrix/"
         }
         "Frontends" = @{
             "LibRedirect Extension" = "https://libredirect.github.io/"
@@ -729,6 +730,7 @@ OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
 
 ????????????????????????????????????????????????????????????????????????????????
 #>
+
 
 
 
