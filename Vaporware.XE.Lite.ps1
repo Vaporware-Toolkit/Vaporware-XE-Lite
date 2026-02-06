@@ -86,18 +86,17 @@ $script:Resources = @{
             "AdGuard Home" = "https://adguard.com/en/adguard-home.html"
         }
     }
-    
     "Development & Analysis" = @{
         "Development Tools" = @{
             "VSCodium" = "https://vscodium.com/"
+            "Blender" = "https://www.blender.org"
         }
         "Reverse Engineering Tools" = @{
             "IDA (auth.lol)" = "https://auth.lol/ida/"
             "dnSpy" = "https://github.com/dnSpy/dnSpy/releases"
             "ILSpy" = "https://github.com/icsharpcode/ILSpy/releases"
         }
-    }
-    
+    } 
     "Browsers & Extensions" = @{
         "Browsers" = @{
             "LibreWolf" = "https://librewolf.net/"
@@ -132,7 +131,6 @@ $script:Resources = @{
             "LibRedirect GitHub" = "https://github.com/libredirect/libredirect"
         }
     }
-    
     "Communication & Productivity" = @{
         "Communication" = @{
             "Signal" = "https://signal.org/"
@@ -155,9 +153,14 @@ $script:Resources = @{
         }
         "Productivity Software" = @{
             "LibreOffice" = "https://www.libreoffice.org/"
+            "VLC" = "https://www.videolan.org/vlc"
+            "Tenacity" = "https://tenacityaudio.org"
+            "Nomacs" = "https://nomacs.org"
+            "GIMP" = "https://www.gimp.org"
+            "OBS" = "https://obsproject.com"
+            "OpenShot" = "https://www.openshot.org"
         }
     }
-    
     "System Management" = @{
         "Uninstallers" = @{
             "Revo Uninstaller" = "https://www.revouninstaller.com/"
@@ -176,7 +179,6 @@ $script:Resources = @{
             "Winaero" = "https://winaero.com/"
         }
     }
-    
     "Mobile Systems" = @{
         "Android ROMs" = @{
             "LineageOS" = "https://lineageos.org/"
@@ -190,7 +192,6 @@ $script:Resources = @{
             "LinuxDroid" = "https://github.com/AryanVBW/LinuxDroid"
         }
     }
-    
     "Operating Systems" = @{
         "Linux Distros" = @{
             "Kali Linux" = "https://www.kali.org/downloads/"
@@ -213,7 +214,6 @@ $script:Resources = @{
             "OPNsense" = "https://opnsense.org/"
         }
     }
-    
     "Security & Encryption" = @{
         "Password Managers" = @{
             "Bitwarden" = "https://bitwarden.com/"
@@ -239,7 +239,6 @@ $script:Resources = @{
             "Picocrypt" = "https://github.com/HACKERALERT/Picocrypt"
         }
     }
-    
     "Privacy Tools" = @{
         "Search Engines" = @{
             "Brave Search" = "https://search.brave.com/"
@@ -266,8 +265,7 @@ $script:Resources = @{
             "MAT2" = "https://0xacab.org/jvoisin/mat2"
             "Scrambled Exif (Android)" = "https://gitlab.com/juanitobananas/scrambled-exif"
         }
-    }
-    
+    }  
     "Data Management" = @{
         "Secure File Deletion" = @{
             "BleachBit" = "https://www.bleachbit.org/"
@@ -282,7 +280,6 @@ $script:Resources = @{
             "Notesnook" = "https://notesnook.com/"
         }
     }
-    
     "Resources & Utilities" = @{
         "Privacy Resources & Guides" = @{
             "Privacy Guides" = "https://www.privacyguides.org/"
@@ -299,9 +296,8 @@ $script:Resources = @{
 
 $script:UpcomingResources = @{
     "Krynet.ai (Coming 2030)" = "https://krynet.ai"
-    "KrySearch (Self Hosted)" = "https://github.com/Bloodware-Inc/KrySearch"
+    "KrySearch (WIP, Self Hosted)" = "https://github.com/Bloodware-Inc/KrySearch"
 }
-
 function Show-MainMenu {
     Clear-Host
     Write-Host ""
@@ -732,6 +728,7 @@ OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
 
 ????????????????????????????????????????????????????????????????????????????????
 #>
+
 
 
 
