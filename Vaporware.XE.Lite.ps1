@@ -267,6 +267,7 @@ $script:Resources = @{
             "DNS Leak Test" = "https://www.dnsleaktest.com/"
             "IPLeak" = "https://ipleak.net/"
             "BrowserLeaks" = "https://browserleaks.com/"
+            "TrackerControl (Android)" = "https://trackercontrol.org/"
         }
         "Metadata Removal" = @{
             "ExifTool" = "https://exiftool.org/"
@@ -298,6 +299,7 @@ $script:Resources = @{
         "Utilities" = @{
             "Technitium MAC Address Changer" = "https://technitium.com/tmac"
             "OnionShare" = "https://onionshare.org/"
+            "Bloodware System Suite" = "https://github.com/Bloodware-Inc/BloodwareSystemSuite"
         }
     }
 }
@@ -736,6 +738,7 @@ OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
 
 ????????????????????????????????????????????????????????????????????????????????
 #>
+
 
 
 
