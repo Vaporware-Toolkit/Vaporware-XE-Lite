@@ -145,11 +145,11 @@ $script:Resources = @{
             "Tutanota" = "https://tutanota.com/"
             "Mailfence" = "https://mailfence.com/"
             "Posteo" = "https://posteo.de/"
-            "SimpleLogin (Email Aliases)" = "https://simplelogin.io/"
-            "AnonAddy (Email Aliases)" = "https://anonaddy.com/"
-            "Mozilla Thunderbird" = "https://www.thunderbird.net/en-US/thunderbird/all/"
+            "SimpleLogin (Email Aliases)" = "https://simplelogin.io"
+            "AnonAddy (Email Aliases)" = "https://anonaddy.com"
+            "Mozilla Thunderbird" = "https://www.thunderbird.net/en-US/thunderbird/all"
             "Fairmail" = "https://f-droid.org/packages/eu.faircode.email"
-            "PGP Key for email" = "https://f-droid.org/packages/org.sufficientlysecure.keychain/"
+            "PGP Key for email" = "https://f-droid.org/packages/org.sufficientlysecure.keychain"
         }
         "Productivity Software" = @{
             "LibreOffice" = "https://www.libreoffice.org/"
@@ -159,6 +159,8 @@ $script:Resources = @{
             "GIMP" = "https://www.gimp.org"
             "OBS" = "https://obsproject.com"
             "OpenShot" = "https://www.openshot.org"
+            "Qalculate!" = "https://qalculate.github.io/downloads.html"
+            "FlameShot" = "https://flameshot.org"
         }
     }
     "System Management" = @{
@@ -728,3 +730,4 @@ OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
 
 ????????????????????????????????????????????????????????????????????????????????
 #>
+
