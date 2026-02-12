@@ -199,6 +199,13 @@ $script:Resources = @{
             "DroidSheep Guard" = "https://droidsheep.info/download.html"
             "Prey" = "https://preyproject.com/"
         }
+        "Android Privacy Tools" = @{
+            "Adblock for Samsung Internet" = "https://play.google.com/store/apps/details?id=com.betafish.adblocksbrowser"
+        }
+        "iOS Privacy Tools" = @{
+            "Adblock Pro for Safari" = "https://apps.apple.com/us/app/adblock-pro-for-safari/id1018301773"
+            "1Blocker (iOS)" = "https://apps.apple.com/us/app/1blocker-ad-blocker/id1365531024"
+        }
     }
     "Operating Systems" = @{
         "Linux Distros" = @{
@@ -268,6 +275,7 @@ $script:Resources = @{
             "IPLeak" = "https://ipleak.net/"
             "BrowserLeaks" = "https://browserleaks.com/"
             "TrackerControl (Android)" = "https://trackercontrol.org/"
+            "AURA" = "https://www.aura.com/"
         }
         "Metadata Removal" = @{
             "ExifTool" = "https://exiftool.org/"
@@ -738,7 +746,3 @@ OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
 
 ????????????????????????????????????????????????????????????????????????????????
 #>
-
-
-
-
