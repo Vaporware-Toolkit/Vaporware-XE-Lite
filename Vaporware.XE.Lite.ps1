@@ -58,6 +58,8 @@ $script:Resources = @{
             "Bitdefender Free" = "https://www.bitdefender.com/en-us/consumer/free-antivirus"
             "Dr.Web CureIt" = "https://free.drweb.com/download+cureit+free/"
             "HitmanPro" = "https://www.hitmanpro.com/en-us"
+            "ClamAV" = "https://www.clamav.net/
+            "MalwareBytes" = "https://www.malwarebytes.com/"
         }
     }
     
@@ -67,6 +69,8 @@ $script:Resources = @{
             "Mullvad VPN" = "https://mullvad.net/"
             "IVPN" = "https://www.ivpn.net/"
             "NordVPN" = "https://nordvpn.com/"
+            "Surfshark" = "https://surfshark.com/"
+            "ExpressVPN" = "https://www.expressvpn.com/"
         }
         "DNS Providers" = @{
             "Quad9" = "https://quad9.net/"
