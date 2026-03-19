@@ -107,7 +107,7 @@ $script:Resources = @{
             "Ungoogled Chromium" = "https://github.com/ungoogled-software/ungoogled-chromium"
         }
         "Browser Extensions" = @{
-            "AdNauseam" = "https://adnauseam.io/"
+            "AdNauseam (Bundled with uBlock)" = "https://adnauseam.io/"
             "Privacy Badger" = "https://privacybadger.org/"
             "HTTPS Everywhere" = "https://www.eff.org/https-everywhere"
             "uBlock Origin" = "https://ublockorigin.com/"
