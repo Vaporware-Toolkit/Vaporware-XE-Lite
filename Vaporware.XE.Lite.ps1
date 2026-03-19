@@ -125,6 +125,9 @@ $script:Resources = @{
             "Canvas Blocker (Chrome)" = "https://chromewebstore.google.com/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd"
             "Trace (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/absolutedouble-trace"
             "uMatrix (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/umatrix/"
+            "Midnight Lizard" = "https://midnight-lizard.org/"
+            "Violentmonkey" = "https://violentmonkey.github.io/"
+            "Anti adblock killer (don't touch my adblocker)" = "https://reek.github.io/anti-adblock-killer/"
         }
         "Frontends" = @{
             "LibRedirect Extension" = "https://libredirect.github.io/"
@@ -219,6 +222,7 @@ $script:Resources = @{
             "Arch Linux" = "https://www.archlinux.org/download/"
             "Fedora" = "https://getfedora.org/"
             "Debian" = "https://www.debian.org/distrib/"
+            "Linux" = "https://linux.org"
         }
         "Bootloader Help" = @{
             "Ventoy" = "https://www.ventoy.net/en/index.html"
@@ -316,7 +320,7 @@ $script:Resources = @{
 
 $script:UpcomingResources = @{
     "Krynet.ai (Coming 2030)" = "https://krynet.ai"
-    "KrySearch (WIP, Self Hosted)" = "https://github.com/Bloodware-Inc/KrySearch"
+    "KrySearch (WIP, Self Hosted)" = "https://github.com/Krynet-LLC/KrySearch"
 }
 function Show-MainMenu {
     Clear-Host
