@@ -252,7 +252,7 @@ $script:Resources = @{
             "PCAPdroid" = "https://pcapdroid.org/fdroid/repo/",
             "Obtainium" = "https://obtainium.imranr.dev/"
         }
-             "iOS Privacy Tools" = @{
+        "iOS Privacy Tools" = @{
             "Adblock Pro for Safari" = "https://apps.apple.com/us/app/adblock-pro-for-safari/id1018301773",
             "1Blocker (iOS)" = "https://apps.apple.com/us/app/1blocker-ad-blocker/id1365531024",
             "Wipr" = "https://apps.apple.com/us/app/wipr/id1437218394",
@@ -298,8 +298,8 @@ $script:Resources = @{
         "Password Managers" = @{
             "Bitwarden" = "https://bitwarden.com/",
             "KeePassXC" = "https://keepassxc.org/",
-            "KeePass" = "https://keepass.info/",
             "Vaultwarden (Self-Hosted)" = "https://github.com/dani-garcia/vaultwarden"
+            "KeePass" = "https://keepass.info/",
             "Proton Pass" = "https://proton.me/pass",
             "SoloKeys" = "https://solokeys.com/",
             "OnlyKey" = "https://onlykey.io/"
@@ -368,11 +368,141 @@ $script:Resources = @{
             "Nwipe" = "https://github.com/martijnvanbrummelen/nwipe",
             "ShredOS" = "https://github.com/PartialVolume/shredos.x86_64"
         }
+        "Self-Hosting & Sovereignty" = @{
+        "Self-Hosted AI & LLMs" = @{
+                "Inference Engines" = @{
+                    "Ollama" = "https://ollama.com/",
+                    "LM Studio" = "https://lmstudio.ai/",
+                    "KoboldCPP" = "https://github.com/LostRuins/koboldcpp",
+                    "llama.cpp" = "https://github.com/ggerganov/llama.cpp",
+                    "Text Generation WebUI" = "https://github.com/oobabooga/text-generation-webui"
+                }
+                "AI Interfaces & Chat" = @{
+                    "Open WebUI (formerly Ollama WebUI)" = "https://openwebui.com/",
+                    "AnythingLLM" = "https://anythingllm.com/",
+                    "Chatbot UI (Mckay Wrigley)" = "https://github.com/mckaywrigley/chatbot-ui",
+                    "Jan" = "https://jan.ai/"
+                }
+                "Model Repositories" = @{
+                    "Hugging Face" = "https://huggingface.co/",
+                    "Papers With Code" = "https://paperswithcode.com/",
+                    "Civitai (Image Models)" = "https://civitai.com/"
+                }
+                "Image Generation" = @{
+                    "Stable Diffusion (Automatic1111)" = "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+                    "ComfyUI" = "https://github.com/comfyanonymous/ComfyUI",
+                    "Fooocus" = "https://github.com/lllyasviel/Fooocus"
+                },
+                "Vector Databases (RAG)" = @{
+                    "ChromaDB" = "https://www.trychroma.com/",
+                    "Qdrant" = "https://qdrant.tech/",
+                    "Weaviate" = "https://weaviate.io/"
+                }
+            }
+            "Home Server OS" = @{
+                "TrueNAS Scale" = "https://www.truenas.com/truenas-scale/",
+                "Unraid" = "https://unraid.net/",
+                "Proxmox VE" = "https://www.proxmox.com/en/proxmox-ve",
+                "CasaOS" = "https://casaos.io/",
+                "OpenMediaVault" = "https://www.openmediavault.org/"
+            }
+            "Cloud & File Sync" = @{
+                "Nextcloud" = "https://nextcloud.com/",
+                "Syncthing" = "https://syncthing.net/",
+                "Seafile" = "https://www.seafile.com/",
+                "OwnCloud" = "https://owncloud.com/"
+            }
+            "Email & Communication" = @{
+                "Mailcow" = "https://mailcow.email/",
+                "Mailu" = "https://mailu.io/",
+                "Modoboa" = "https://modoboa.org/",
+                "Matrix (Synapse)" = "https://matrix.org/",
+                "Jitsi Meet" = "https://meet.jit.si/"
+            }
+            "Password & Auth" = @{
+                "Vaultwarden" = "https://github.com/dani-garcia/vaultwarden",
+                "Authelia" = "https://www.authelia.com/",
+                "Authentik" = "https://goauthentik.io/"
+            }
+            "Network & DNS" = @{
+                "Unbound" = "https://www.nlnetlabs.nl/projects/unbound/about/",
+                "WireGuard" = "https://www.wireguard.com/",
+                "Tailscale" = "https://tailscale.com/"
+                "Headscale (Tailscale Server)" = "https://github.com/juanfont/headscale",
+                "Traefik" = "https://traefik.io/",
+                "Caddy" = "https://caddyserver.com/"
+                "OpenVPN Access Server" = "https://openvpn.net/"
+            }
+            "Media & Streaming" = @{
+                "Plex" = "https://www.plex.tv/",
+                "Jellyfin" = "https://jellyfin.org/",
+                "Emby" = "https://emby.media/",
+                "Navidrome" = "https://www.navidrome.org/"
+            }
+            "Automation & Dashboards" = @{
+                "Home Assistant" = "https://www.home-assistant.io/",
+                "Dashy" = "https://dashy.to/",
+                "Heimdall" = "https://heimdall.site/",
+                "Nginx Proxy Manager" = "https://nginxproxymanager.com/"
+            }
         "Secure Notes & Documents" = @{
             "Standard Notes" = "https://standardnotes.com/",
             "Joplin" = "https://joplinapp.org/",
             "Cryptee" = "https://crypt.ee/",
             "Notesnook" = "https://notesnook.com/"
+        }
+        "Reputation & Data Removal" = @{
+            "Data Broker Opt-Outs" = @{
+                "DeleteMe (Service)" = "https://joindeleteme.com/",
+                "Incogni (Service)" = "https://www.incogni.com/",
+                "OptOutPreScreen (Credit Offers)" = "https://www.optoutprescreen.com/",
+                "Whitepages Opt-Out" = "https://www.whitepages.com/remove-my-info",
+                "Spokeo Opt-Out" = "https://www.spokeo.com/opt-out",
+                "PeopleFinder Opt-Out" = "https://www.peoplefinder.com/opt-out",
+                "Intelius Opt-Out" = "https://www.intelius.com/opt-out/",
+                "FastPeopleSearch Opt-Out" = "https://www.fastpeoplesearch.com/remove-personal-information",
+                "National Do Not Call Registry (Opt out of unwanted calls)" = "https://donotcall.gov/"
+            }
+            "Breach & Leak Monitoring" = @{
+                "Have I Been Pwned" = "https://haveibeenpwned.com/",
+                "Firefox Monitor" = "https://monitor.firefox.com/",
+                "Google Password Checkup" = "https://passwords.google.com/checkup",
+                "DeHashed" = "https://dehashed.com/"
+            }
+            "Identity Protection" = @{
+                "Credit Karma" = "https://www.creditkarma.com/",
+                "Experian Free Credit Report" = "https://www.experian.com/freecreditreport",
+                "AnnualCreditReport (Official)" = "https://www.annualcreditreport.com/",
+                "IdentityTheft.gov (US Gov)" = "https://www.identitytheft.gov/"
+            }
+            "Search Engine Cleanup" = @{
+                "Google Remove Outdated Content" = "https://search.google.com/search-console/remove-outdated-content",
+                "Bing Removal Request" = "https://www.bing.com/webmasters/remove",
+                "DuckDuckGo Removal" = "https://help.duckduckgo.com/duckduckgo-help-pages/results/removal/"
+            }
+        }
+        "Emergency & Offline Comms" = @{
+            "Mesh Networking" = @{
+                "Meshtastic" = "https://meshtastic.org/",
+                "LoRaWAN Gateways" = "https://www.thethingsnetwork.org/",
+                "Berty" = "https://berty.tech/"
+            }
+            "Satellite & Emergency" = @{
+                "Garmin inReach" = "https://www.garmin.com/en-US/outdoors/satellite-communicators/",
+                "Zoleo" = "https://zoleo.com/",
+                "Beacon (Satellite)" = "https://www.beacon.com/"
+            }
+            "Offline Messaging" = @{
+                "Briar (P2P)" = "https://briarproject.org/",
+                "Bridgefy" = "https://bridgefy.com/",
+                "FireChat (Legacy)" = "https://firechat.com/"
+            }
+            "Physical Security" = @{
+                "Faraday Bags (Signal Blocking)" = "https://www.faradaybag.com/",
+                "USB Data Blockers (Juice Jacking)" = "https://www.amazon.com/s?k=usb+data+blocker",
+                "Webcam Covers" = "https://www.amazon.com/s?k=webcam+cover",
+                "RFID Blocking Wallets" = "https://www.amazon.com/s?k=rfid+blocking+wallet"
+            }
         }
     }
     "Resources & Utilities" = @{
@@ -389,7 +519,6 @@ $script:Resources = @{
         }
     }
 }
-
 $script:UpcomingResources = @{
     "Krynet.ai (Coming 2030)" = "https://krynet.ai",
     "KrySearch (WIP, Self Hosted)" = "https://github.com/Krynet-LLC/KrySearch"
