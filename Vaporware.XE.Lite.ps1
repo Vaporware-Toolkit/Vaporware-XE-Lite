@@ -368,6 +368,12 @@ $script:Resources = @{
             "Nwipe" = "https://github.com/martijnvanbrummelen/nwipe",
             "ShredOS" = "https://github.com/PartialVolume/shredos.x86_64"
         }
+        "Secure Notes & Documents" = @{
+            "Standard Notes" = "https://standardnotes.com/",
+            "Joplin" = "https://joplinapp.org/",
+            "Cryptee" = "https://crypt.ee/",
+            "Notesnook" = "https://notesnook.com/"
+        }
         "Self-Hosting & Sovereignty" = @{
         "Self-Hosted AI & LLMs" = @{
                 "Inference Engines" = @{
@@ -392,7 +398,7 @@ $script:Resources = @{
                     "Stable Diffusion (Automatic1111)" = "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
                     "ComfyUI" = "https://github.com/comfyanonymous/ComfyUI",
                     "Fooocus" = "https://github.com/lllyasviel/Fooocus"
-                },
+                }
                 "Vector Databases (RAG)" = @{
                     "ChromaDB" = "https://www.trychroma.com/",
                     "Qdrant" = "https://qdrant.tech/",
@@ -427,10 +433,10 @@ $script:Resources = @{
             "Network & DNS" = @{
                 "Unbound" = "https://www.nlnetlabs.nl/projects/unbound/about/",
                 "WireGuard" = "https://www.wireguard.com/",
-                "Tailscale" = "https://tailscale.com/"
+                "Tailscale" = "https://tailscale.com/",
                 "Headscale (Tailscale Server)" = "https://github.com/juanfont/headscale",
                 "Traefik" = "https://traefik.io/",
-                "Caddy" = "https://caddyserver.com/"
+                "Caddy" = "https://caddyserver.com/",
                 "OpenVPN Access Server" = "https://openvpn.net/"
             }
             "Media & Streaming" = @{
@@ -445,12 +451,6 @@ $script:Resources = @{
                 "Heimdall" = "https://heimdall.site/",
                 "Nginx Proxy Manager" = "https://nginxproxymanager.com/"
             }
-        "Secure Notes & Documents" = @{
-            "Standard Notes" = "https://standardnotes.com/",
-            "Joplin" = "https://joplinapp.org/",
-            "Cryptee" = "https://crypt.ee/",
-            "Notesnook" = "https://notesnook.com/"
-        }
         "Reputation & Data Removal" = @{
             "Data Broker Opt-Outs" = @{
                 "DeleteMe (Service)" = "https://joindeleteme.com/",
@@ -503,6 +503,25 @@ $script:Resources = @{
                 "Webcam Covers" = "https://www.amazon.com/s?k=webcam+cover",
                 "RFID Blocking Wallets" = "https://www.amazon.com/s?k=rfid+blocking+wallet"
             }
+        "Privacy Finance & Crypto" = @{
+            "Bitcoin Wallets" = @{
+                "Wasabi Wallet" = "https://wasabiwallet.io/",
+                "Samourai Wallet (Android)" = "https://samouraiwallet.com/",
+                "Electrum" = "https://electrum.org/"
+            }
+            "Monero Wallets" = @{
+                "Monero GUI" = "https://www.getmonero.org/downloads/",
+                "Cake Wallet" = "https://cakewallet.com/"
+            }
+            "Privacy Cards" = @{
+                "Privacy.com" = "https://privacy.com/",
+                "Revolut (Virtual Cards)" = "https://www.revolut.com/"
+            }
+            "Tax & Compliance" = @{
+                "Koinly" = "https://koinly.io/",
+                "CoinTracking" = "https://cointracking.info/"
+            }
+        }
         }
     }
     "Resources & Utilities" = @{
