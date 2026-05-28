@@ -1,6 +1,6 @@
 #Requires -Version 5.1
 
-$Host.UI.RawUI.WindowTitle = "VaporWareXE Lite v3.0"
+$Host.UI.RawUI.WindowTitle = "VaporWareXE Lite v4.0"
 if ($Host.UI.RawUI.BackgroundColor -ne $null) {
     $Host.UI.RawUI.BackgroundColor = "Black"
     $Host.UI.RawUI.ForegroundColor = "White"
@@ -21,309 +21,528 @@ Clear-Host
 $script:Resources = @{
     "Scanning & Analysis" = @{
         "File Scanning & Malware Analysis" = @{
-            "ANY.RUN" = "https://app.any.run/"
-            "Hybrid Analysis" = "https://hybrid-analysis.com/"
-            "IRIS-H" = "https://iris-h.services/pages/submit"
-            "Intezer Analyze" = "https://analyze.intezer.com/"
-            "Joe Sandbox" = "https://www.joesandbox.com/"
-            "Manalyzer" = "https://manalyzer.org/"
-            "Metadefender" = "https://metadefender.com/"
-            "Pikker Sandbox" = "https://sandbox.pikker.ee/"
-            "PolySwarm" = "https://polyswarm.network/"
-            "TyLabs Scan" = "https://scan.tylabs.com/"
-            "Checkpoint ThreatPoint" = "https://threatpoint.checkpoint.com/ThreatPortal/emulation"
-            "SecondWrite" = "https://webportal.secondwrite.com/"
-            "Talos File Reputation" = "https://talosintelligence.com/talos_file_reputation/"
-            "VirusTotal" = "https://www.virustotal.com/gui/home/upload"
-            "Kaspersky OpenTIP" = "https://opentip.kaspersky.com/"
-            "Jotti's Malware Scan" = "https://virusscan.jotti.org/"
-            "URLVoid" = "https://www.urlvoid.com/"
-            "URLScan.io" = "https://urlscan.io/"
-            "Quttera" = "https://quttera.com/"
-            "FileScan.io" = "https://www.filescan.io/scan"
-            "ViruScan" = "https://www.virscan.org/"
-            "Sucuri SiteCheck" = "https://sitecheck.sucuri.net/"
-            "NordVPN File Checker" = "https://nordvpn.com/file-checker/"
-            "Dr.Web vms" = "https://vms.drweb.com/online/"
-            "ScanMalware" = "https://scanmalware.com/"
-            "Internxt Virus Scanner" = "https://internxt.com/virus-scanner"
-            "DynamiteLab" = "https://dynamitelab.com/"
-            "VMRay" = "https://www.vmray.com/"
-            "Malshare" = "https://malshare.com/"
-            "Acronis" = "https://www.acronis.com/"
-            "EmailVeritas File Checker" = "https://www.emailveritas.com/file-checker"
-            "Watchdog Online Scanner" = "https://watchdog.com/online-malware-scanner/"
+            "ANY.RUN" = "https://app.any.run/",
+            "Hybrid Analysis" = "https://hybrid-analysis.com/",
+            "IRIS-H" = "https://iris-h.services/pages/submit",
+            "Intezer Analyze" = "https://analyze.intezer.com/",
+            "Joe Sandbox" = "https://www.joesandbox.com/",
+            "Manalyzer" = "https://manalyzer.org/",
+            "Metadefender" = "https://metadefender.com/",
+            "Pikker Sandbox" = "https://sandbox.pikker.ee/",
+            "PolySwarm" = "https://polyswarm.network/",
+            "TyLabs Scan" = "https://scan.tylabs.com/",
+            "Checkpoint ThreatPoint" = "https://threatpoint.checkpoint.com/ThreatPortal/emulation",
+            "SecondWrite" = "https://webportal.secondwrite.com/",
+            "Talos File Reputation" = "https://talosintelligence.com/talos_file_reputation/",
+            "VirusTotal" = "https://www.virustotal.com/gui/home/upload",
+            "Kaspersky OpenTIP" = "https://opentip.kaspersky.com/",
+            "Jotti's Malware Scan" = "https://virusscan.jotti.org/",
+            "URLVoid" = "https://www.urlvoid.com/",
+            "URLScan.io" = "https://urlscan.io/",
+            "Quttera" = "https://quttera.com/",
+            "FileScan.io" = "https://www.filescan.io/scan",
+            "ViruScan" = "https://www.virscan.org/",
+            "Sucuri SiteCheck" = "https://sitecheck.sucuri.net/",
+            "NordVPN File Checker" = "https://nordvpn.com/file-checker/",
+            "Dr.Web vms" = "https://vms.drweb.com/online/",
+            "ScanMalware" = "https://scanmalware.com/",
+            "Internxt Virus Scanner" = "https://internxt.com/virus-scanner",
+            "DynamiteLab" = "https://dynamitelab.com/",
+            "VMRay" = "https://www.vmray.com/",
+            "Malshare" = "https://malshare.com/",
+            "Acronis" = "https://www.acronis.com/",
+            "EmailVeritas File Checker" = "https://www.emailveritas.com/file-checker",
+            "Watchdog Online Scanner" = "https://watchdog.com/online-malware-scanner/",
         }
         "Antivirus & System Scanners" = @{
-            "Bitdefender Free" = "https://www.bitdefender.com/en-us/consumer/free-antivirus"
-            "Dr.Web CureIt" = "https://free.drweb.com/download+cureit+free/"
-            "HitmanPro" = "https://www.hitmanpro.com/en-us"
-            "ClamAV" = "https://www.clamav.net/
-            "MalwareBytes" = "https://www.malwarebytes.com/"
+            "Bitdefender Free" = "https://www.bitdefender.com/en-us/consumer/free-antivirus",
+            "Dr.Web CureIt" = "https://free.drweb.com/download+cureit+free/",
+            "HitmanPro" = "https://www.hitmanpro.com/en-us",
+            "ClamAV" = "https://www.clamav.net/",
+            "MalwareBytes" = "https://www.malwarebytes.com/",
         }
     }
     
     "Network & Privacy" = @{
         "VPN Services" = @{
-            "ProtonVPN" = "https://protonvpn.com/"
-            "Mullvad VPN" = "https://mullvad.net/"
-            "IVPN" = "https://www.ivpn.net/"
-            "NordVPN" = "https://nordvpn.com/"
-            "Surfshark" = "https://surfshark.com/"
-            "ExpressVPN" = "https://www.expressvpn.com/"
+            "ProtonVPN" = "https://protonvpn.com/",
+            "Mullvad VPN" = "https://mullvad.net/",
+            "IVPN" = "https://www.ivpn.net/",
+            "NordVPN" = "https://nordvpn.com/",
+            "Surfshark" = "https://surfshark.com/",
+            "ExpressVPN" = "https://www.expressvpn.com/",
         }
         "DNS Providers" = @{
-            "Quad9" = "https://quad9.net/"
-            "NextDNS" = "https://nextdns.io/"
-            "Cloudflare DNS" = "https://www.cloudflare.com/application-services/products/dns/"
-            "AdGuard DNS" = "https://adguard-dns.io/en/public-dns.html"
-            "ControlD Free DNS" = "https://controld.com/free-dns"
-            "DNS.Watch" = "https://dns.watch/"
+            "Quad9" = "https://quad9.net/",
+            "NextDNS" = "https://nextdns.io/",
+            "Cloudflare DNS" = "https://www.cloudflare.com/application-services/products/dns/",
+            "AdGuard DNS" = "https://adguard-dns.io/en/public-dns.html",
+            "ControlD Free DNS" = "https://controld.com/free-dns",
+            "DNS.Watch" = "https://dns.watch/",
+            "RethinkDNS" = "https://rethinkdns.com/",
+            "OpenDNS" = "https://www.opendns.com/",
+            "dns0.eu" = "https://www.dns0.eu/"
+            "BlahDNS" = "https://blahdns.com/",
+            "Mullvad DNS" = "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls",
+            "uBlockDNS" = "https://ublockdns.com/",
+            "AhaDNS" = "https://ahadns.com/",
+            "LibreDNS" = "https://libredns.gr/"
         }
         "Network Security Tools" = @{
-            "Wireshark" = "https://www.wireshark.org/"
-            "Nmap" = "https://nmap.org/"
-            "Little Snitch (macOS)" = "https://www.obdev.at/products/littlesnitch/"
-            "GlassWire" = "https://www.glasswire.com/"
-            "Portmaster" = "https://safing.io/"
-            "Pi-hole" = "https://pi-hole.net/"
-            "AdGuard Home" = "https://adguard.com/en/adguard-home.html"
+            "Wireshark" = "https://www.wireshark.org/",
+            "Nmap" = "https://nmap.org/",
+            "Little Snitch (macOS)" = "https://www.obdev.at/products/littlesnitch/",
+            "GlassWire" = "https://www.glasswire.com/",
+            "Portmaster" = "https://safing.io/",
+            "Pi-hole" = "https://pi-hole.net/",
+            "AdGuard Home" = "https://adguard.com/en/adguard-home.html",
         }
     }
     "Development & Analysis" = @{
         "Development Tools" = @{
-            "VSCodium" = "https://vscodium.com/"
-            "Blender" = "https://www.blender.org"
+            "VSCodium" = "https://vscodium.com/",
+            "Blender" = "https://www.blender.org",
         }
         "Reverse Engineering Tools" = @{
-            "IDA (auth.lol)" = "https://auth.lol/ida/"
-            "dnSpy" = "https://github.com/dnSpy/dnSpy/releases"
-            "ILSpy" = "https://github.com/icsharpcode/ILSpy/releases"
+            "IDA (auth.lol)" = "https://auth.lol/ida/",
+            "dnSpy" = "https://github.com/dnSpy/dnSpy/releases",
+            "ILSpy" = "https://github.com/icsharpcode/ILSpy/releases",
+            "ghidra" = "https://github.com/NationalSecurityAgency/ghidra",
+            "x64dbg" = "https://x64dbg.com/"
+            "Cutter RE" = "https://cutter.re/",
+            "radare" = "https://rada.re/n/",
+            "Binary Ninja" = "https://binary.ninja/",
+            "Detect it easy" = "https://github.com/horsicq/DIE-engine",
+            "PE bear" = "https://github.com/hasherezade/pe-bear",
+        }
+        "Sysinternals" = @{
+            "Sysinternals Suite" = "https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+            "Process Explorer" = "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+            "Process Monitor" = "https://learn.microsoft.com/en-us/sysinternals/downloads/procmon",
+            "Autoruns" = "https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns",
+            "PsExec" = "https://learn.microsoft.com/en-us/sysinternals/downloads/psexec",
+            "PsKill" = "https://learn.microsoft.com/en-us/sysinternals/downloads/pstools",
+            "RAMMap" = "https://learn.microsoft.com/en-us/sysinternals/downloads/rammap",
+            "VMMap" = "https://learn.microsoft.com/en-us/sysinternals/downloads/vmmap",
+            "TCPView" = "https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview",
+            "Handle" = "https://learn.microsoft.com/en-us/sysinternals/downloads/handle",
+            "Strings" = "https://learn.microsoft.com/en-us/sysinternals/downloads/strings",
+            "SigCheck" = "https://learn.microsoft.com/en-us/sysinternals/downloads/sigcheck",
+            "AccessChk" = "https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk",
+            "BlueScreenView (NirSoft)" = "https://www.nirsoft.net/utils/blue_screen_view.html",
+            "Process Hacker" = "https://processhacker.sourceforge.io/"
+        }
         }
     } 
     "Browsers & Extensions" = @{
         "Browsers" = @{
-            "LibreWolf" = "https://librewolf.net/"
-            "Tor Browser" = "https://www.torproject.org/"
-            "Mullvad Browser" = "https://mullvad.net/en/browser"
-            "GNU IceCat (Updates lag behind Firefox)" = "https://icecatbrowser.org/download.html"
-            "Waterfox" = "https://www.waterfox.com/"
-            "Ungoogled Chromium" = "https://github.com/ungoogled-software/ungoogled-chromium"
+            "LibreWolf" = "https://librewolf.net/",
+            "Tor Browser" = "https://www.torproject.org/",
+            "Mullvad Browser" = "https://mullvad.net/en/browser",
+            "GNU IceCat (Updates lag behind Firefox)" = "https://icecatbrowser.org/download.html",
+            "Waterfox" = "https://www.waterfox.com/",
+            "Ungoogled Chromium" = "https://github.com/ungoogled-software/ungoogled-chromium",
         }
         "Browser Extensions" = @{
-            "AdNauseam (Bundled with uBlock)" = "https://adnauseam.io/"
-            "Privacy Badger" = "https://privacybadger.org/"
-            "HTTPS Everywhere" = "https://www.eff.org/https-everywhere"
-            "uBlock Origin" = "https://ublockorigin.com/"
-            "NoScript" = "https://noscript.net/"
-            "LibreJS (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/librejs/"
-            "Qwant Search (Chrome)" = "https://chromewebstore.google.com/detail/qwant-search-engine/kplfenefaakjhjkklghidleljeocgdap?hl=en"
-            "Qwant Search (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/qwant-the-search-engine/"
-            "Startpage Private Search (Chrome)" = "https://chromewebstore.google.com/detail/startpage-private-search/fgmjlmbojbkmdpofahffgcpkhkngfpef"
-            "Startpage Private Search (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/startpage-private-search/"
-            "LocalCDN" = "https://www.localcdn.org/"
-            "Decentraleyes" = "https://decentraleyes.org/"
-            "JShelter" = "https://jshelter.org/"
-            "Cookie-AutoDelete" = "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete"
-            "CanvasBlocker (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/"
-            "Canvas Blocker (Chrome)" = "https://chromewebstore.google.com/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd"
-            "Trace (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/absolutedouble-trace"
-            "uMatrix (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/umatrix/"
-            "Midnight Lizard" = "https://midnight-lizard.org/"
-            "Violentmonkey" = "https://violentmonkey.github.io/"
-            "Anti adblock killer (don't touch my adblocker)" = "https://reek.github.io/anti-adblock-killer/"
+            "AdNauseam (Bundled with uBlock)" = "https://adnauseam.io/",
+            "Privacy Badger" = "https://privacybadger.org/",
+            "HTTPS Everywhere" = "https://www.eff.org/https-everywhere",
+            "uBlock Origin" = "https://ublockorigin.com/",
+            "NoScript" = "https://noscript.net/",
+            "LibreJS (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/librejs/",
+            "LocalCDN (Fork of Decentraleyes)" = "https://www.localcdn.org/",
+            "Decentraleyes" = "https://decentraleyes.org/",
+            "JShelter" = "https://jshelter.org/",
+            "Privacy Possum" = "https://www.privacypossum.com/",
+            "ClearURLs" = "https://clearurls.xyz/",
+            "WebRTC Leak Prevent" = "https://addons.mozilla.org/en-US/firefox/addon/webrtc-leak-prevent/",
+            "Firefox Multi-Account Containers" = "https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/",
+            "Skip Redirect" = "https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/",
+            "FastForward (Link Shortener)" = "https://fastforward.team/",
+            "Cookie-AutoDelete" = "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete",
+            "CanvasBlocker (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/",
+            "Canvas Blocker (Chrome)" = "https://chromewebstore.google.com/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd",
+            "Trace (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/absolutedouble-trace",
+            "uMatrix (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/umatrix/",
+            "Midnight Lizard" = "https://midnight-lizard.org/",
+            "Violentmonkey" = "https://violentmonkey.github.io/",
+            "Anti adblock killer (don't touch my adblocker)" = "https://reek.github.io/anti-adblock-killer/",
         }
         "Frontends" = @{
-            "LibRedirect Extension" = "https://libredirect.github.io/"
-            "LibRedirect GitHub" = "https://github.com/libredirect/libredirect"
+            "LibRedirect Extension" = "https://libredirect.github.io/",
         }
     }
     "Communication & Productivity" = @{
         "Communication" = @{
-            "Signal" = "https://signal.org/"
-            "Session" = "https://getsession.org/"
-            "Element" = "https://element.io/en"
-            "Briar" = "https://briarproject.org/"
-            "SimpleX Chat" = "https://simplex.chat/"
-            "Threema" = "https://threema.com/"
+            "Signal" = "https://signal.org/",
+            "Molly (Hardened Signal)" = "https://molly.im",
+            "Jami" = "https://jami.net/",
+            "Cwtch" = "https://docs.cwtch.im/",
+            "Session" = "https://getsession.org/",
+            "Element" = "https://element.io/en",
+            "Briar" = "https://briarproject.org/",
+            "SimpleX Chat" = "https://simplex.chat/",
+            "Threema" = "https://threema.com/",
         }
         "Email Privacy" = @{
-            "ProtonMail" = "https://proton.me/mail"
-            "Tutanota" = "https://tutanota.com/"
-            "Mailfence" = "https://mailfence.com/"
-            "Posteo" = "https://posteo.de/"
-            "SimpleLogin (Email Aliases)" = "https://simplelogin.io"
-            "AnonAddy (Email Aliases)" = "https://anonaddy.com"
-            "Mozilla Thunderbird" = "https://www.thunderbird.net/en-US/thunderbird/all"
-            "Fairmail" = "https://f-droid.org/packages/eu.faircode.email"
-            "PGP Key for email" = "https://f-droid.org/packages/org.sufficientlysecure.keychain"
+            "ProtonMail" = "https://proton.me/mail",
+            "Tutanota" = "https://tutanota.com/",
+            "Mailfence" = "https://mailfence.com/",
+            "Posteo" = "https://posteo.de/",
+            "SimpleLogin (Email Aliases)" = "https://simplelogin.io",
+            "AnonAddy (Email Aliases)" = "https://anonaddy.com",
+            "Mozilla Thunderbird" = "https://www.thunderbird.net/en-US/thunderbird/all",
+            "Fairmail" = "https://f-droid.org/packages/eu.faircode.email",
+            "PGP Key for email" = "https://f-droid.org/packages/org.sufficientlysecure.keychain",
         }
         "Productivity Software" = @{
-            "LibreOffice" = "https://www.libreoffice.org/"
-            "VLC" = "https://www.videolan.org/vlc"
-            "Tenacity" = "https://tenacityaudio.org"
-            "Nomacs" = "https://nomacs.org"
-            "GIMP" = "https://www.gimp.org"
-            "OBS" = "https://obsproject.com"
-            "OpenShot" = "https://www.openshot.org"
-            "Qalculate!" = "https://qalculate.github.io/downloads.html"
+            "LibreOffice" = "https://www.libreoffice.org/",
+            "VLC" = "https://www.videolan.org/vlc",
+            "Tenacity" = "https://tenacityaudio.org",
+            "Nomacs" = "https://nomacs.org",
+            "GIMP" = "https://www.gimp.org",
+            "OBS" = "https://obsproject.com",
+            "OpenShot" = "https://www.openshot.org",
+            "Qalculate!" = "https://qalculate.github.io/downloads.html",
             "FlameShot" = "https://flameshot.org",
             "More Open Source Replacements" = "https://github.com/LibreWar/librealt"
         }
     }
     "System Management" = @{
         "Uninstallers" = @{
-            "Revo Uninstaller" = "https://www.revouninstaller.com/"
-            "Geek Uninstaller" = "https://geekuninstaller.com/"
-            "Uninstalr" = "https://uninstalr.com/"
-            "Bulk Crap Uninstaller" = "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases"
-            "HiBit Uninstaller" = "https://www.hibitsoft.ir/"
+            "Revo Uninstaller" = "https://www.revouninstaller.com/",
+            "Geek Uninstaller" = "https://geekuninstaller.com/",
+            "Uninstalr" = "https://uninstalr.com/",
+            "Bulk Crap Uninstaller" = "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases",
+            "HiBit Uninstaller" = "https://www.hibitsoft.ir/",
             "Uninstall Tool" = "https://crystalidea.com/uninstall-tool"
         }
         "System Debloaters" = @{
-            "Win11Debloat" = "https://github.com/Raphire/Win11Debloat"
-            "Windows10Debloater" = "https://github.com/Sycnex/Windows10Debloater"
-            "Android Platform Tools" = "https://developer.android.com/tools/releases/platform-tools"
-            "Android Debloater" = "https://github.com/oop7/Android-debloater/releases"
-            "VTRL Debloat tool" = "https://vtrl.cc/"
-            "ChrisTitusTech (CTT) Debloat tool" = "https://github.com/ChrisTitusTech/winutil"
-            "Winaero" = "https://winaero.com/"
+            "Win11Debloat" = "https://github.com/Raphire/Win11Debloat",
+            "Windows10Debloater" = "https://github.com/Sycnex/Windows10Debloater",
+            "Android Platform Tools" = "https://developer.android.com/tools/releases/platform-tools",
+            "Android Debloater" = "https://github.com/oop7/Android-debloater/releases",
+            "VTRL Debloat tool" = "https://vtrl.cc/",
+            "ChrisTitusTech (CTT) Debloat tool" = "https://github.com/ChrisTitusTech/winutil",
+            "Winaero" = "https://winaero.com/",
             "RemoveWindowsAI" = "https://github.com/zoicware/RemoveWindowsAI"
         }
     }
     "Mobile Systems" = @{
         "Android ROMs" = @{
-            "LineageOS" = "https://lineageos.org/"
-            "CalyxOS" = "https://calyxos.org/install/"
-            "GrapheneOS" = "https://grapheneos.org/"
-            "/e/OS" = "https://e.foundation/"
-            "DivestOS" = "https://divestos.org/"
+            "LineageOS" = "https://lineageos.org/",
+            "CalyxOS" = "https://calyxos.org/install/",
+            "GrapheneOS" = "https://grapheneos.org/",
+            "/e/OS" = "https://e.foundation/",
+            "DivestOS" = "https://divestos.org/",
             "microG (Google Play Services Replacement)" = "https://github.com/microg/GmsCore/wiki"
         }
         "Android Security Tools" = @{
-            "LinuxDroid" = "https://github.com/AryanVBW/LinuxDroid"
-            "LibreTube" = "https://libretube.dev/"
-            "Outertune" = "https://outertune.org/download-outertune/"
-            "Android Security Assessment tools" = "https://github.com/rostomzed/Android-Security-Assessment-Tools"
-            "DroidSheep Guard" = "https://droidsheep.info/download.html"
+            "LinuxDroid" = "https://github.com/AryanVBW/LinuxDroid",
+            "LibreTube" = "https://libretube.dev/",
+            "Outertune" = "https://outertune.org/download-outertune/",
+            "Android Security Assessment tools" = "https://github.com/rostomzed/Android-Security-Assessment-Tools",
+            "DroidSheep Guard" = "https://droidsheep.info/download.html",
             "Prey" = "https://preyproject.com/"
         }
         "Android Privacy Tools" = @{
-            "Adblock for Samsung Internet" = "https://play.google.com/store/apps/details?id=com.betafish.adblocksbrowser"
+            "Adblock for Samsung Internet" = "https://play.google.com/store/apps/details?id=com.betafish.adblocksbrowser",
+            "Aurora store" = "https://auroraoss.com/",
+            "F-Droid" = "https://f-droid.org/",
+            "NetGuard" = "https://netguard.me/",
+            "RethinkDNS (Firewall & DNS)" = "https://rethinkdns.com/app",
+            "Insular" = "https://f-droid.org/packages/com.oasisfeng.island.fdroid/",
+            "PCAPdroid" = "https://pcapdroid.org/fdroid/repo/",
+            "Obtainium" = "https://obtainium.imranr.dev/"
         }
         "iOS Privacy Tools" = @{
-            "Adblock Pro for Safari" = "https://apps.apple.com/us/app/adblock-pro-for-safari/id1018301773"
-            "1Blocker (iOS)" = "https://apps.apple.com/us/app/1blocker-ad-blocker/id1365531024"
+            "Adblock Pro for Safari" = "https://apps.apple.com/us/app/adblock-pro-for-safari/id1018301773",
+            "1Blocker (iOS)" = "https://apps.apple.com/us/app/1blocker-ad-blocker/id1365531024",
+            "Wipr" = "https://apps.apple.com/us/app/wipr/id1437218394",
+            "AdGuard for iOS" = "https://apps.apple.com/us/app/adguard-adblock-privacy/id1047241010",
+            "Lockdown Pro" = "https://apps.apple.com/us/app/lockdown-pro/id1535664838",
+            "Raivo OTP (iOS)" = "https://raivo-otp.com/",
+            "Hide My Email (iCloud+)" = "https://support.apple.com/en-us/HT202303",
+            "Focus Modes (System)" = "https://support.apple.com/en-us/HT202303",
+            "App Privacy Report Guide" = "https://support.apple.com/en-us/HT212614",
+            "Shortcuts (Privacy Automation)" = "https://support.apple.com/en-us/HT209636",
+            "Private Relay Info" = "https://support.apple.com/en-us/HT212614",
+            "Call & SMS Filter (Hiya)" = "https://apps.apple.com/us/app/hiya-call-screening/id1180728474",
+            "Truecaller (iOS)" = "https://apps.apple.com/us/app/truecaller-id-spam-blocker/id448133453",
+            "Photo Metadata Scrubber" = "https://apps.apple.com/us/app/metaphoto/id1500369846",
+            "Health Data Encrypt" = "https://apps.apple.com/us/app/health-data-encrypt/id1534363668",
+            "TestFlight Privacy Audit" = "https://developer.apple.com/testflight/"
         }
     }
     "Operating Systems" = @{
         "Linux Distros" = @{
-            "Kali Linux" = "https://www.kali.org/downloads/"
-            "Parrot Security" = "https://www.parrotsec.org/"
-            "Tails" = "https://tails.boum.org/"
-            "Whonix" = "https://www.whonix.org/"
-            "Qubes OS" = "https://www.qubes-os.org/"
-            "Arch Linux" = "https://www.archlinux.org/download/"
-            "Fedora" = "https://getfedora.org/"
-            "Debian" = "https://www.debian.org/distrib/"
+            "Kali Linux" = "https://www.kali.org/downloads/",
+            "Parrot Security" = "https://www.parrotsec.org/",
+            "Tails" = "https://tails.boum.org/",
+            "Whonix" = "https://www.whonix.org/",
+            "Qubes OS" = "https://www.qubes-os.org/",
+            "Arch Linux" = "https://www.archlinux.org/download/",
+            "Fedora" = "https://getfedora.org/",
+            "Debian" = "https://www.debian.org/distrib/",
             "Linux" = "https://linux.org"
         }
         "Bootloader Help" = @{
-            "Ventoy" = "https://www.ventoy.net/en/index.html"
-            "Rufus" = "https://rufus.ie/en/"
+            "Ventoy" = "https://www.ventoy.net/en/index.html",
+            "Rufus" = "https://rufus.ie/en/",
             "Etcher" = "https://www.balena.io/etcher/"
         }
         "Router Firmware" = @{
-            "OpenWrt" = "https://openwrt.org/"
-            "pfSense" = "https://www.pfsense.org/"
+            "OpenWrt" = "https://openwrt.org/",
+            "pfSense" = "https://www.pfsense.org/",
             "OPNsense" = "https://opnsense.org/"
         }
     }
     "Security & Encryption" = @{
         "Password Managers" = @{
-            "Bitwarden" = "https://bitwarden.com/"
-            "KeePassXC" = "https://keepassxc.org/"
-            "KeePass" = "https://keepass.info/"
+            "Bitwarden" = "https://bitwarden.com/",
+            "KeePassXC" = "https://keepassxc.org/",
             "Vaultwarden (Self-Hosted)" = "https://github.com/dani-garcia/vaultwarden"
-            "Proton Pass" = "https://proton.me/pass"
+            "KeePass" = "https://keepass.info/",
+            "Proton Pass" = "https://proton.me/pass",
+            "SoloKeys" = "https://solokeys.com/",
+            "OnlyKey" = "https://onlykey.io/"
         }
         "2FA & Authentication" = @{
-            "Aegis Authenticator (Android)" = "https://getaegis.app/"
-            "2FAS" = "https://2fas.com/"
-            "Yubico" = "https://www.yubico.com/"
-            "GoTrustID" = "https://gotrustid.com/"
-            "Nitrokey (Hardware Keys)" = "https://www.nitrokey.com/"
-            "Raivo OTP (iOS)" = "https://raivo-otp.com/"
+            "Aegis Authenticator (Android)" = "https://getaegis.app/",
+            "2FAS" = "https://2fas.com/",
+            "Yubico" = "https://www.yubico.com/",
+            "GoTrustID" = "https://gotrustid.com/",
+            "Nitrokey (Hardware Keys)" = "https://www.nitrokey.com/",
+            "Raivo OTP (iOS)" = "https://raivo-otp.com/",
+            "Ente Auth" = "https://ente.com/auth/"
         }
         "Encryption Tools" = @{
-            "VeraCrypt" = "https://www.veracrypt.fr/"
-            "Cryptomator" = "https://cryptomator.org/"
-            "PeaZip" = "https://peazip.github.io/"
-            "7-Zip" = "https://www.7-zip.org/"
-            "GnuPG" = "https://gnupg.org/"
+            "VeraCrypt" = "https://www.veracrypt.fr/",
+            "Cryptomator" = "https://cryptomator.org/",
+            "PeaZip" = "https://peazip.github.io/",
+            "7-Zip" = "https://www.7-zip.org/",
+            "GnuPG" = "https://gnupg.org/",
             "Picocrypt" = "https://github.com/HACKERALERT/Picocrypt"
         }
     }
     "Privacy Tools" = @{
         "Search Engines" = @{
-            "Brave Search" = "https://search.brave.com/"
-            "Qwant" = "https://www.qwant.com/"
-            "Startpage" = "https://www.startpage.com/"
-            "SearxNG" = "https://searx.space/"
+            "Brave Search" = "https://search.brave.com/",
+            "Qwant" = "https://www.qwant.com/",
+            "Startpage" = "https://www.startpage.com/",
+            "SearxNG" = "https://searx.space/",
+            "DuckDuckGo" = "https://duckduckgo.com/",
+            "Swisscows" = "https://swisscows.com/",
+            "Mojeek" = "https://www.mojeek.com/",
+            "Kagi" = "https://kagi.com/",
+            "Ecosia" = "https://www.ecosia.org/",
+            "MetaGer" = "https://metager.org/",
+            "Whoogle" = "https://github.com/benbusby/whoogle-search",
+            "Torch" = "https://torchsearch.com/",
+            "Millionshort" = "https://millionshort.com/",
+            "Presearch" = "https://presearch.com/"
         }
         "Cloud Storage (Privacy-Focused)" = @{
-            "Proton Drive" = "https://proton.me/drive"
-            "Tresorit" = "https://tresorit.com/"
-            "Sync.com" = "https://www.sync.com/"
-            "Internxt" = "https://internxt.com/"
-            "Filen" = "https://filen.io/"
+            "Proton Drive" = "https://proton.me/drive",
+            "Tresorit" = "https://tresorit.com/",
+            "Sync.com" = "https://www.sync.com/",
+            "Internxt" = "https://internxt.com/",
+            "Filen" = "https://filen.io/",
             "MEGA" = "https://mega.io/"
         }
         "Privacy Testing & Auditing" = @{
-            "Cover Your Tracks (EFF)" = "https://coveryourtracks.eff.org/"
-            "DNS Leak Test" = "https://www.dnsleaktest.com/"
-            "IPLeak" = "https://ipleak.net/"
-            "BrowserLeaks" = "https://browserleaks.com/"
-            "TrackerControl (Android)" = "https://trackercontrol.org/"
+            "Cover Your Tracks (EFF)" = "https://coveryourtracks.eff.org/",
+            "DNS Leak Test" = "https://www.dnsleaktest.com/",
+            "IPLeak" = "https://ipleak.net/",
+            "BrowserLeaks" = "https://browserleaks.com/",
+            "TrackerControl (Android)" = "https://trackercontrol.org/",
             "AURA" = "https://www.aura.com/"
         }
         "Metadata Removal" = @{
-            "ExifTool" = "https://exiftool.org/"
-            "MAT2" = "https://0xacab.org/jvoisin/mat2"
+            "ExifTool" = "https://exiftool.org/",
+            "MAT2" = "https://0xacab.org/jvoisin/mat2",
             "Scrambled Exif (Android)" = "https://gitlab.com/juanitobananas/scrambled-exif"
         }
     }  
     "Data Management" = @{
         "Secure File Deletion" = @{
-            "BleachBit" = "https://www.bleachbit.org/"
-            "Eraser" = "https://eraser.heidi.ie/"
-            "Nwipe" = "https://github.com/martijnvanbrummelen/nwipe"
+            "BleachBit" = "https://www.bleachbit.org/",
+            "Eraser" = "https://eraser.heidi.ie/",
+            "Nwipe" = "https://github.com/martijnvanbrummelen/nwipe",
             "ShredOS" = "https://github.com/PartialVolume/shredos.x86_64"
         }
         "Secure Notes & Documents" = @{
-            "Standard Notes" = "https://standardnotes.com/"
-            "Joplin" = "https://joplinapp.org/"
-            "Cryptee" = "https://crypt.ee/"
+            "Standard Notes" = "https://standardnotes.com/",
+            "Joplin" = "https://joplinapp.org/",
+            "Cryptee" = "https://crypt.ee/",
             "Notesnook" = "https://notesnook.com/"
+        }
+        "Self-Hosting & Sovereignty" = @{
+        "Self-Hosted AI & LLMs" = @{
+                "Inference Engines" = @{
+                    "Ollama" = "https://ollama.com/",
+                    "LM Studio" = "https://lmstudio.ai/",
+                    "KoboldCPP" = "https://github.com/LostRuins/koboldcpp",
+                    "llama.cpp" = "https://github.com/ggerganov/llama.cpp",
+                    "Text Generation WebUI" = "https://github.com/oobabooga/text-generation-webui"
+                }
+                "AI Interfaces & Chat" = @{
+                    "Open WebUI (formerly Ollama WebUI)" = "https://openwebui.com/",
+                    "AnythingLLM" = "https://anythingllm.com/",
+                    "Chatbot UI (Mckay Wrigley)" = "https://github.com/mckaywrigley/chatbot-ui",
+                    "Jan" = "https://jan.ai/"
+                }
+                "Model Repositories" = @{
+                    "Hugging Face" = "https://huggingface.co/",
+                    "Papers With Code" = "https://paperswithcode.com/",
+                    "Civitai (Image Models)" = "https://civitai.com/"
+                }
+                "Image Generation" = @{
+                    "Stable Diffusion (Automatic1111)" = "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+                    "ComfyUI" = "https://github.com/comfyanonymous/ComfyUI",
+                    "Fooocus" = "https://github.com/lllyasviel/Fooocus"
+                }
+                "Vector Databases (RAG)" = @{
+                    "ChromaDB" = "https://www.trychroma.com/",
+                    "Qdrant" = "https://qdrant.tech/",
+                    "Weaviate" = "https://weaviate.io/"
+                }
+            }
+            "Home Server OS" = @{
+                "TrueNAS Scale" = "https://www.truenas.com/truenas-scale/",
+                "Unraid" = "https://unraid.net/",
+                "Proxmox VE" = "https://www.proxmox.com/en/proxmox-ve",
+                "CasaOS" = "https://casaos.io/",
+                "OpenMediaVault" = "https://www.openmediavault.org/"
+            }
+            "Cloud & File Sync" = @{
+                "Nextcloud" = "https://nextcloud.com/",
+                "Syncthing" = "https://syncthing.net/",
+                "Seafile" = "https://www.seafile.com/",
+                "OwnCloud" = "https://owncloud.com/"
+            }
+            "Email & Communication" = @{
+                "Mailcow" = "https://mailcow.email/",
+                "Mailu" = "https://mailu.io/",
+                "Modoboa" = "https://modoboa.org/",
+                "Matrix (Synapse)" = "https://matrix.org/",
+                "Jitsi Meet" = "https://meet.jit.si/"
+            }
+            "Password & Auth" = @{
+                "Vaultwarden" = "https://github.com/dani-garcia/vaultwarden",
+                "Authelia" = "https://www.authelia.com/",
+                "Authentik" = "https://goauthentik.io/"
+            }
+            "Network & DNS" = @{
+                "Unbound" = "https://www.nlnetlabs.nl/projects/unbound/about/",
+                "WireGuard" = "https://www.wireguard.com/",
+                "Tailscale" = "https://tailscale.com/",
+                "Headscale (Tailscale Server)" = "https://github.com/juanfont/headscale",
+                "Traefik" = "https://traefik.io/",
+                "Caddy" = "https://caddyserver.com/",
+                "OpenVPN Access Server" = "https://openvpn.net/"
+            }
+            "Media & Streaming" = @{
+                "Plex" = "https://www.plex.tv/",
+                "Jellyfin" = "https://jellyfin.org/",
+                "Emby" = "https://emby.media/",
+                "Navidrome" = "https://www.navidrome.org/"
+            }
+            "Automation & Dashboards" = @{
+                "Home Assistant" = "https://www.home-assistant.io/",
+                "Dashy" = "https://dashy.to/",
+                "Heimdall" = "https://heimdall.site/",
+                "Nginx Proxy Manager" = "https://nginxproxymanager.com/"
+            }
+        "Reputation & Data Removal" = @{
+            "Data Broker Opt-Outs" = @{
+                "DeleteMe (Service)" = "https://joindeleteme.com/",
+                "Incogni (Service)" = "https://www.incogni.com/",
+                "OptOutPreScreen (Credit Offers)" = "https://www.optoutprescreen.com/",
+                "Whitepages Opt-Out" = "https://www.whitepages.com/remove-my-info",
+                "Spokeo Opt-Out" = "https://www.spokeo.com/opt-out",
+                "PeopleFinder Opt-Out" = "https://www.peoplefinder.com/opt-out",
+                "Intelius Opt-Out" = "https://www.intelius.com/opt-out/",
+                "FastPeopleSearch Opt-Out" = "https://www.fastpeoplesearch.com/remove-personal-information",
+                "National Do Not Call Registry (Opt out of unwanted calls)" = "https://donotcall.gov/"
+            }
+            "Breach & Leak Monitoring" = @{
+                "Have I Been Pwned" = "https://haveibeenpwned.com/",
+                "Firefox Monitor" = "https://monitor.firefox.com/",
+                "Google Password Checkup" = "https://passwords.google.com/checkup",
+                "DeHashed" = "https://dehashed.com/"
+            }
+            "Identity Protection" = @{
+                "Credit Karma" = "https://www.creditkarma.com/",
+                "Experian Free Credit Report" = "https://www.experian.com/freecreditreport",
+                "AnnualCreditReport (Official)" = "https://www.annualcreditreport.com/",
+                "IdentityTheft.gov (US Gov)" = "https://www.identitytheft.gov/"
+            }
+            "Search Engine Cleanup" = @{
+                "Google Remove Outdated Content" = "https://search.google.com/search-console/remove-outdated-content",
+                "Bing Removal Request" = "https://www.bing.com/webmasters/remove",
+                "DuckDuckGo Removal" = "https://help.duckduckgo.com/duckduckgo-help-pages/results/removal/"
+            }
+        }
+        "Emergency & Offline Comms" = @{
+            "Mesh Networking" = @{
+                "Meshtastic" = "https://meshtastic.org/",
+                "LoRaWAN Gateways" = "https://www.thethingsnetwork.org/",
+                "Berty" = "https://berty.tech/"
+            }
+            "Satellite & Emergency" = @{
+                "Garmin inReach" = "https://www.garmin.com/en-US/outdoors/satellite-communicators/",
+                "Zoleo" = "https://zoleo.com/",
+                "Beacon (Satellite)" = "https://www.beacon.com/"
+            }
+            "Offline Messaging" = @{
+                "Briar (P2P)" = "https://briarproject.org/",
+                "Bridgefy" = "https://bridgefy.com/",
+                "FireChat (Legacy)" = "https://firechat.com/"
+            }
+            "Physical Security" = @{
+                "Faraday Bags (Signal Blocking)" = "https://www.faradaybag.com/",
+                "USB Data Blockers (Juice Jacking)" = "https://www.amazon.com/s?k=usb+data+blocker",
+                "Webcam Covers" = "https://www.amazon.com/s?k=webcam+cover",
+                "RFID Blocking Wallets" = "https://www.amazon.com/s?k=rfid+blocking+wallet"
+            }
+        "Privacy Finance & Crypto" = @{
+            "Bitcoin Wallets" = @{
+                "Wasabi Wallet" = "https://wasabiwallet.io/",
+                "Samourai Wallet (Android)" = "https://samouraiwallet.com/",
+                "Electrum" = "https://electrum.org/"
+            }
+            "Monero Wallets" = @{
+                "Monero GUI" = "https://www.getmonero.org/downloads/",
+                "Cake Wallet" = "https://cakewallet.com/"
+            }
+            "Privacy Cards" = @{
+                "Privacy.com" = "https://privacy.com/",
+                "Revolut (Virtual Cards)" = "https://www.revolut.com/"
+            }
+            "Tax & Compliance" = @{
+                "Koinly" = "https://koinly.io/",
+                "CoinTracking" = "https://cointracking.info/"
+            }
+        }
         }
     }
     "Resources & Utilities" = @{
         "Privacy Resources & Guides" = @{
-            "Privacy Guides" = "https://www.privacyguides.org/"
-            "PRISM Break" = "https://prism-break.org/"
-            "EFF Surveillance Self-Defense" = "https://ssd.eff.org/"
+            "Privacy Guides" = "https://www.privacyguides.org/",
+            "PRISM Break" = "https://prism-break.org/",
+            "EFF Surveillance Self-Defense" = "https://ssd.eff.org/",
             "Security Planner" = "https://securityplanner.org/"
         }
         "Utilities" = @{
-            "Technitium MAC Address Changer" = "https://technitium.com/tmac"
-            "OnionShare" = "https://onionshare.org/"
+            "Technitium MAC Address Changer" = "https://technitium.com/tmac",
+            "OnionShare" = "https://onionshare.org/",
             "Bloodware System Suite" = "https://github.com/Bloodware-Inc/BloodwareSystemSuite"
         }
     }
 }
-
 $script:UpcomingResources = @{
-    "Krynet.ai (Coming 2030)" = "https://krynet.ai"
+    "Krynet.ai (Coming 2030)" = "https://krynet.ai",
     "KrySearch (WIP, Self Hosted)" = "https://github.com/Krynet-LLC/KrySearch"
 }
 function Show-MainMenu {
