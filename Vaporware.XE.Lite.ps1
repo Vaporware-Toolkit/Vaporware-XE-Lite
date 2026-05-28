@@ -166,7 +166,7 @@ $script:Resources = @{
             "uMatrix (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/umatrix/",
             "Midnight Lizard" = "https://midnight-lizard.org/",
             "Violentmonkey" = "https://violentmonkey.github.io/",
-            "Anti adblock killer (don't touch my adblocker)" = "https://reek.github.io/anti-adblock-killer/",
+            "Anti Adblock Killer (Reeks Replacement) (Don't Touch My AdBlocker)" = "https://greasyfork.org/en/scripts/397070-anti-adblocker-off",
         }
         "Frontends" = @{
             "LibRedirect Extension" = "https://libredirect.github.io/",
