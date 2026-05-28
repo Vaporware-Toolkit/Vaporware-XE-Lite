@@ -73,12 +73,17 @@ $script:Resources = @{
             "ExpressVPN" = "https://www.expressvpn.com/"
         }
         "DNS Providers" = @{
-            "Quad9" = "https://quad9.net/"
-            "NextDNS" = "https://nextdns.io/"
-            "Cloudflare DNS" = "https://www.cloudflare.com/application-services/products/dns/"
-            "AdGuard DNS" = "https://adguard-dns.io/en/public-dns.html"
-            "ControlD Free DNS" = "https://controld.com/free-dns"
-            "DNS.Watch" = "https://dns.watch/"
+            "Quad9" = "https://quad9.net/",
+            "NextDNS" = "https://nextdns.io/",
+            "Cloudflare DNS" = "https://www.cloudflare.com/application-services/products/dns/",
+            "AdGuard DNS" = "https://adguard-dns.io/en/public-dns.html",
+            "ControlD Free DNS" = "https://controld.com/free-dns",
+            "DNS.Watch" = "https://dns.watch/",
+            "RethinkDNS" = "https://rethinkdns.com/",
+            "OpenDNS" = "https://www.opendns.com/",
+            "dns0.eu" = "https://www.dns0.eu/"
+            "BlahDNS" = "https://blahdns.com/",
+            "Mullvad DNS" = "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls"
         }
         "Network Security Tools" = @{
             "Wireshark" = "https://www.wireshark.org/"
@@ -96,9 +101,16 @@ $script:Resources = @{
             "Blender" = "https://www.blender.org"
         }
         "Reverse Engineering Tools" = @{
-            "IDA (auth.lol)" = "https://auth.lol/ida/"
-            "dnSpy" = "https://github.com/dnSpy/dnSpy/releases"
-            "ILSpy" = "https://github.com/icsharpcode/ILSpy/releases"
+            "IDA (auth.lol)" = "https://auth.lol/ida/",
+            "dnSpy" = "https://github.com/dnSpy/dnSpy/releases",
+            "ILSpy" = "https://github.com/icsharpcode/ILSpy/releases",,
+            "ghidra" = "https://github.com/NationalSecurityAgency/ghidra",
+            "x64dbg" = "https://x64dbg.com/"
+            "Cutter RE" = "https://cutter.re/",
+            "radare" = "https://rada.re/n/",
+            "Binary Ninja" = "https://binary.ninja/",
+            "Detect it easy" = "https://github.com/horsicq/DIE-engine",
+            "PE bear" = "https://github.com/hasherezade/pe-bear"
         }
     } 
     "Browsers & Extensions" = @{
@@ -247,19 +259,22 @@ $script:Resources = @{
     }
     "Security & Encryption" = @{
         "Password Managers" = @{
-            "Bitwarden" = "https://bitwarden.com/"
-            "KeePassXC" = "https://keepassxc.org/"
-            "KeePass" = "https://keepass.info/"
+            "Bitwarden" = "https://bitwarden.com/",
+            "KeePassXC" = "https://keepassxc.org/",
+            "KeePass" = "https://keepass.info/",
             "Vaultwarden (Self-Hosted)" = "https://github.com/dani-garcia/vaultwarden"
-            "Proton Pass" = "https://proton.me/pass"
+            "Proton Pass" = "https://proton.me/pass",
+            "SoloKeys" = "https://solokeys.com/",
+            "OnlyKey" = "https://onlykey.io/"
         }
         "2FA & Authentication" = @{
-            "Aegis Authenticator (Android)" = "https://getaegis.app/"
-            "2FAS" = "https://2fas.com/"
-            "Yubico" = "https://www.yubico.com/"
-            "GoTrustID" = "https://gotrustid.com/"
-            "Nitrokey (Hardware Keys)" = "https://www.nitrokey.com/"
-            "Raivo OTP (iOS)" = "https://raivo-otp.com/"
+            "Aegis Authenticator (Android)" = "https://getaegis.app/",
+            "2FAS" = "https://2fas.com/",
+            "Yubico" = "https://www.yubico.com/",
+            "GoTrustID" = "https://gotrustid.com/",
+            "Nitrokey (Hardware Keys)" = "https://www.nitrokey.com/",
+            "Raivo OTP (iOS)" = "https://raivo-otp.com/",
+            "Ente Auth" = "https://ente.com/auth/"
         }
         "Encryption Tools" = @{
             "VeraCrypt" = "https://www.veracrypt.fr/"
