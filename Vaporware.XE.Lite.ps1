@@ -84,7 +84,9 @@ $script:Resources = @{
             "dns0.eu" = "https://www.dns0.eu/"
             "BlahDNS" = "https://blahdns.com/",
             "Mullvad DNS" = "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls",
-            "uBlockDNS" = "https://ublockdns.com/"
+            "uBlockDNS" = "https://ublockdns.com/",
+            "AhaDNS" = "https://ahadns.com/",
+            "LibreDNS" = "https://libredns.gr/"
         }
         "Network Security Tools" = @{
             "Wireshark" = "https://www.wireshark.org/",
