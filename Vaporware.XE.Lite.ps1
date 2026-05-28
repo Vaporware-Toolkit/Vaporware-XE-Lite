@@ -112,6 +112,9 @@ $script:Resources = @{
             "Detect it easy" = "https://github.com/horsicq/DIE-engine",
             "PE bear" = "https://github.com/hasherezade/pe-bear"
         }
+        "Sysinternals" = @{
+            "Name" = "URL",
+        }
     } 
     "Browsers & Extensions" = @{
         "Browsers" = @{
