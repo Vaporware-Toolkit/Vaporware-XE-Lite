@@ -113,7 +113,22 @@ $script:Resources = @{
             "PE bear" = "https://github.com/hasherezade/pe-bear",
         }
         "Sysinternals" = @{
-            "Name" = "URL",
+            "Sysinternals Suite" = "https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+            "Process Explorer" = "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+            "Process Monitor" = "https://learn.microsoft.com/en-us/sysinternals/downloads/procmon",
+            "Autoruns" = "https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns",
+            "PsExec" = "https://learn.microsoft.com/en-us/sysinternals/downloads/psexec",
+            "PsKill" = "https://learn.microsoft.com/en-us/sysinternals/downloads/pstools",
+            "RAMMap" = "https://learn.microsoft.com/en-us/sysinternals/downloads/rammap",
+            "VMMap" = "https://learn.microsoft.com/en-us/sysinternals/downloads/vmmap",
+            "TCPView" = "https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview",
+            "Handle" = "https://learn.microsoft.com/en-us/sysinternals/downloads/handle",
+            "Strings" = "https://learn.microsoft.com/en-us/sysinternals/downloads/strings",
+            "SigCheck" = "https://learn.microsoft.com/en-us/sysinternals/downloads/sigcheck",
+            "AccessChk" = "https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk",
+            "BlueScreenView (NirSoft)" = "https://www.nirsoft.net/utils/blue_screen_view.html",
+            "Process Hacker" = "https://processhacker.sourceforge.io/"
+        }
         }
     } 
     "Browsers & Extensions" = @{
@@ -135,6 +150,12 @@ $script:Resources = @{
             "LocalCDN (Fork of Decentraleyes)" = "https://www.localcdn.org/",
             "Decentraleyes" = "https://decentraleyes.org/",
             "JShelter" = "https://jshelter.org/",
+            "Privacy Possum" = "https://www.privacypossum.com/",
+            "ClearURLs" = "https://clearurls.xyz/",
+            "WebRTC Leak Prevent" = "https://addons.mozilla.org/en-US/firefox/addon/webrtc-leak-prevent/",
+            "Firefox Multi-Account Containers" = "https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/",
+            "Skip Redirect" = "https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/",
+            "FastForward (Link Shortener)" = "https://fastforward.team/",
             "Cookie-AutoDelete" = "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete",
             "CanvasBlocker (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/",
             "Canvas Blocker (Chrome)" = "https://chromewebstore.google.com/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd",
