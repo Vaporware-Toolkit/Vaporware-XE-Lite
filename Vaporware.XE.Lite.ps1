@@ -231,9 +231,23 @@ $script:Resources = @{
             "PCAPdroid" = "https://pcapdroid.org/fdroid/repo/",
             "Obtainium" = "https://obtainium.imranr.dev/"
         }
-        "iOS Privacy Tools" = @{
+             "iOS Privacy Tools" = @{
             "Adblock Pro for Safari" = "https://apps.apple.com/us/app/adblock-pro-for-safari/id1018301773",
             "1Blocker (iOS)" = "https://apps.apple.com/us/app/1blocker-ad-blocker/id1365531024",
+            "Wipr" = "https://apps.apple.com/us/app/wipr/id1437218394",
+            "AdGuard for iOS" = "https://apps.apple.com/us/app/adguard-adblock-privacy/id1047241010",
+            "Lockdown Pro" = "https://apps.apple.com/us/app/lockdown-pro/id1535664838",
+            "Raivo OTP (iOS)" = "https://raivo-otp.com/",
+            "Hide My Email (iCloud+)" = "https://support.apple.com/en-us/HT202303",
+            "Focus Modes (System)" = "https://support.apple.com/en-us/HT202303",
+            "App Privacy Report Guide" = "https://support.apple.com/en-us/HT212614",
+            "Shortcuts (Privacy Automation)" = "https://support.apple.com/en-us/HT209636",
+            "Private Relay Info" = "https://support.apple.com/en-us/HT212614",
+            "Call & SMS Filter (Hiya)" = "https://apps.apple.com/us/app/hiya-call-screening/id1180728474",
+            "Truecaller (iOS)" = "https://apps.apple.com/us/app/truecaller-id-spam-blocker/id448133453",
+            "Photo Metadata Scrubber" = "https://apps.apple.com/us/app/metaphoto/id1500369846",
+            "Health Data Encrypt" = "https://apps.apple.com/us/app/health-data-encrypt/id1534363668",
+            "TestFlight Privacy Audit" = "https://developer.apple.com/testflight/"
         }
     }
     "Operating Systems" = @{
