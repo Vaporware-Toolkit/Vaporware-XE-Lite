@@ -1,6 +1,6 @@
 #Requires -Version 5.1
 
-$Host.UI.RawUI.WindowTitle = "VaporWareXE Lite v3.0"
+$Host.UI.RawUI.WindowTitle = "VaporWareXE Lite v4.0"
 if ($Host.UI.RawUI.BackgroundColor -ne $null) {
     $Host.UI.RawUI.BackgroundColor = "Black"
     $Host.UI.RawUI.ForegroundColor = "White"
