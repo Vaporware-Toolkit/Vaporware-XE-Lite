@@ -117,11 +117,7 @@ $script:Resources = @{
             "uBlock Origin" = "https://ublockorigin.com/"
             "NoScript" = "https://noscript.net/"
             "LibreJS (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/librejs/"
-            "Qwant Search (Chrome)" = "https://chromewebstore.google.com/detail/qwant-search-engine/kplfenefaakjhjkklghidleljeocgdap?hl=en"
-            "Qwant Search (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/qwant-the-search-engine/"
-            "Startpage Private Search (Chrome)" = "https://chromewebstore.google.com/detail/startpage-private-search/fgmjlmbojbkmdpofahffgcpkhkngfpef"
-            "Startpage Private Search (Firefox)" = "https://addons.mozilla.org/en-US/firefox/addon/startpage-private-search/"
-            "LocalCDN" = "https://www.localcdn.org/"
+            "LocalCDN (Fork of Decentraleyes)" = "https://www.localcdn.org/"
             "Decentraleyes" = "https://decentraleyes.org/"
             "JShelter" = "https://jshelter.org/"
             "Cookie-AutoDelete" = "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete"
@@ -141,6 +137,9 @@ $script:Resources = @{
     "Communication & Productivity" = @{
         "Communication" = @{
             "Signal" = "https://signal.org/"
+            "Molly (Hardened Signal)" = "https://molly.im"
+            "Jami" = "https://jami.net/"
+            "Cwtch" = "https://docs.cwtch.im/"
             "Session" = "https://getsession.org/"
             "Element" = "https://element.io/en"
             "Briar" = "https://briarproject.org/"
@@ -148,68 +147,75 @@ $script:Resources = @{
             "Threema" = "https://threema.com/"
         }
         "Email Privacy" = @{
-            "ProtonMail" = "https://proton.me/mail"
-            "Tutanota" = "https://tutanota.com/"
-            "Mailfence" = "https://mailfence.com/"
-            "Posteo" = "https://posteo.de/"
-            "SimpleLogin (Email Aliases)" = "https://simplelogin.io"
-            "AnonAddy (Email Aliases)" = "https://anonaddy.com"
-            "Mozilla Thunderbird" = "https://www.thunderbird.net/en-US/thunderbird/all"
-            "Fairmail" = "https://f-droid.org/packages/eu.faircode.email"
+            "ProtonMail" = "https://proton.me/mail",
+            "Tutanota" = "https://tutanota.com/",
+            "Mailfence" = "https://mailfence.com/",
+            "Posteo" = "https://posteo.de/",
+            "SimpleLogin (Email Aliases)" = "https://simplelogin.io",
+            "AnonAddy (Email Aliases)" = "https://anonaddy.com",
+            "Mozilla Thunderbird" = "https://www.thunderbird.net/en-US/thunderbird/all",
+            "Fairmail" = "https://f-droid.org/packages/eu.faircode.email",
             "PGP Key for email" = "https://f-droid.org/packages/org.sufficientlysecure.keychain"
         }
         "Productivity Software" = @{
-            "LibreOffice" = "https://www.libreoffice.org/"
-            "VLC" = "https://www.videolan.org/vlc"
-            "Tenacity" = "https://tenacityaudio.org"
-            "Nomacs" = "https://nomacs.org"
-            "GIMP" = "https://www.gimp.org"
-            "OBS" = "https://obsproject.com"
-            "OpenShot" = "https://www.openshot.org"
-            "Qalculate!" = "https://qalculate.github.io/downloads.html"
+            "LibreOffice" = "https://www.libreoffice.org/",
+            "VLC" = "https://www.videolan.org/vlc",
+            "Tenacity" = "https://tenacityaudio.org",
+            "Nomacs" = "https://nomacs.org",
+            "GIMP" = "https://www.gimp.org",
+            "OBS" = "https://obsproject.com",
+            "OpenShot" = "https://www.openshot.org",
+            "Qalculate!" = "https://qalculate.github.io/downloads.html",
             "FlameShot" = "https://flameshot.org",
             "More Open Source Replacements" = "https://github.com/LibreWar/librealt"
         }
     }
     "System Management" = @{
         "Uninstallers" = @{
-            "Revo Uninstaller" = "https://www.revouninstaller.com/"
-            "Geek Uninstaller" = "https://geekuninstaller.com/"
-            "Uninstalr" = "https://uninstalr.com/"
-            "Bulk Crap Uninstaller" = "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases"
-            "HiBit Uninstaller" = "https://www.hibitsoft.ir/"
+            "Revo Uninstaller" = "https://www.revouninstaller.com/",
+            "Geek Uninstaller" = "https://geekuninstaller.com/",
+            "Uninstalr" = "https://uninstalr.com/",
+            "Bulk Crap Uninstaller" = "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases",
+            "HiBit Uninstaller" = "https://www.hibitsoft.ir/",
             "Uninstall Tool" = "https://crystalidea.com/uninstall-tool"
         }
         "System Debloaters" = @{
-            "Win11Debloat" = "https://github.com/Raphire/Win11Debloat"
-            "Windows10Debloater" = "https://github.com/Sycnex/Windows10Debloater"
-            "Android Platform Tools" = "https://developer.android.com/tools/releases/platform-tools"
-            "Android Debloater" = "https://github.com/oop7/Android-debloater/releases"
-            "VTRL Debloat tool" = "https://vtrl.cc/"
+            "Win11Debloat" = "https://github.com/Raphire/Win11Debloat",
+            "Windows10Debloater" = "https://github.com/Sycnex/Windows10Debloater",
+            "Android Platform Tools" = "https://developer.android.com/tools/releases/platform-tools",
+            "Android Debloater" = "https://github.com/oop7/Android-debloater/releases",
+            "VTRL Debloat tool" = "https://vtrl.cc/",
             "ChrisTitusTech (CTT) Debloat tool" = "https://github.com/ChrisTitusTech/winutil"
-            "Winaero" = "https://winaero.com/"
+            "Winaero" = "https://winaero.com/",
             "RemoveWindowsAI" = "https://github.com/zoicware/RemoveWindowsAI"
         }
     }
     "Mobile Systems" = @{
         "Android ROMs" = @{
-            "LineageOS" = "https://lineageos.org/"
-            "CalyxOS" = "https://calyxos.org/install/"
-            "GrapheneOS" = "https://grapheneos.org/"
-            "/e/OS" = "https://e.foundation/"
-            "DivestOS" = "https://divestos.org/"
+            "LineageOS" = "https://lineageos.org/",
+            "CalyxOS" = "https://calyxos.org/install/",
+            "GrapheneOS" = "https://grapheneos.org/",
+            "/e/OS" = "https://e.foundation/",
+            "DivestOS" = "https://divestos.org/",
             "microG (Google Play Services Replacement)" = "https://github.com/microg/GmsCore/wiki"
         }
         "Android Security Tools" = @{
-            "LinuxDroid" = "https://github.com/AryanVBW/LinuxDroid"
-            "LibreTube" = "https://libretube.dev/"
-            "Outertune" = "https://outertune.org/download-outertune/"
-            "Android Security Assessment tools" = "https://github.com/rostomzed/Android-Security-Assessment-Tools"
-            "DroidSheep Guard" = "https://droidsheep.info/download.html"
+            "LinuxDroid" = "https://github.com/AryanVBW/LinuxDroid",
+            "LibreTube" = "https://libretube.dev/",
+            "Outertune" = "https://outertune.org/download-outertune/",
+            "Android Security Assessment tools" = "https://github.com/rostomzed/Android-Security-Assessment-Tools",
+            "DroidSheep Guard" = "https://droidsheep.info/download.html",
             "Prey" = "https://preyproject.com/"
         }
         "Android Privacy Tools" = @{
-            "Adblock for Samsung Internet" = "https://play.google.com/store/apps/details?id=com.betafish.adblocksbrowser"
+            "Adblock for Samsung Internet" = "https://play.google.com/store/apps/details?id=com.betafish.adblocksbrowser",
+            "Aurora store" = "https://auroraoss.com/",
+            "F-Droid" = "https://f-droid.org/",
+            "NetGuard" = "https://netguard.me/",
+            "RethinkDNS (Firewall & DNS)" = "https://rethinkdns.com/app",
+            "Insular" = "https://f-droid.org/packages/com.oasisfeng.island.fdroid/",
+            "PCAPdroid" = "https://pcapdroid.org/fdroid/repo/",
+            "Obtainium" = "https://obtainium.imranr.dev/"
         }
         "iOS Privacy Tools" = @{
             "Adblock Pro for Safari" = "https://apps.apple.com/us/app/adblock-pro-for-safari/id1018301773"
