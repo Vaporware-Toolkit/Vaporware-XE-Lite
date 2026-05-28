@@ -220,7 +220,7 @@ $script:Resources = @{
             "Android Platform Tools" = "https://developer.android.com/tools/releases/platform-tools",
             "Android Debloater" = "https://github.com/oop7/Android-debloater/releases",
             "VTRL Debloat tool" = "https://vtrl.cc/",
-            "ChrisTitusTech (CTT) Debloat tool" = "https://github.com/ChrisTitusTech/winutil"
+            "ChrisTitusTech (CTT) Debloat tool" = "https://github.com/ChrisTitusTech/winutil",
             "Winaero" = "https://winaero.com/",
             "RemoveWindowsAI" = "https://github.com/zoicware/RemoveWindowsAI"
         }
